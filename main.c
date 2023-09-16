@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   test.c                                             :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: juramos <juramos@student.42madrid.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/16 13:22:52 by juramos           #+#    #+#             */
-/*   Updated: 2023/09/16 13:26:06 by juramos          ###   ########.fr       */
+/*   Updated: 2023/09/16 13:44:45 by juramos          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,8 @@
 
 int	main(void)
 {
-	printf("Identify whether c is alpha.\n");
+	printf("---------------------------\n");
+	printf("isalpha:\n");
 	printf("Std function: %d.\n", isalpha('c'));
 	printf("Custom function: %d.\n", ft_isalpha('c'));
 	return (0);
